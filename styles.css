@@ -104,12 +104,15 @@ h1,h4{
 
 
 /*section central , img*/ 
-
+.main_container_section_center{
+  display: flex;
+  justify-content: center;
+}
 .imagen_center_wikipedia{
-    width: 130px;
-    height:120px;
-    margin-top: 5px;
-    
+  
+    width: 135px;
+    height:125px;
+   
 }
 
 /*section rigth grid main */
