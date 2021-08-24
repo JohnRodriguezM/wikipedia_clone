@@ -184,6 +184,15 @@ h1,h4{
 }
 
 
+@media(min-width:425px){
+    .imagen_center_wikipedia{
+  
+        width: 155px;
+        height:145px;
+       
+    }
+}
+
 
 
 /*

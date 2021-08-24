@@ -1,0 +1,45 @@
+.p1_top,
+.p1_left,
+.p2_left,
+.p3_left,
+.p1_right,
+.p2_right,
+.p3_right,
+.p1_bottom
+{font-size: 1rem;}
+   
+.p1_top_sub,
+.p1_left_sub,
+.p2_left_sub,
+.p3_left_sub,
+.p1_right_sub,
+.p2_right_sub,
+.p3_right_sub,
+.p1_bottom_sub
+{font-size:.8rem;}
+
+.imagen_center_wikipedia{width: 165px;height:155px;}
+
+@media(min-width:600px;){
+    .p1_top,
+.p1_left,
+.p2_left,
+.p3_left,
+.p1_right,
+.p2_right,
+.p3_right,
+.p1_bottom
+{font-size: 1.5rem;}
+   
+.p1_top_sub,
+.p1_left_sub,
+.p2_left_sub,
+.p3_left_sub,
+.p1_right_sub,
+.p2_right_sub,
+.p3_right_sub,
+.p1_bottom_sub
+{font-size:.85rem;}
+
+.imagen_center_wikipedia{width: 165px;height:155px;}
+}
