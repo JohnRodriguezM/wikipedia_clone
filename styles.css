@@ -1,31 +1,15 @@
-
-
-
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html{
-    scroll-behavior: smooth;
-    font-size: 62.5;
-    font-family: 'Times New Roman', Times, serif;
-}
-header{
-    text-align: center;
-}
-h1,h4{
-    margin-top: 4.5px;
-    
-}h1{font-size:1.2rem;}
-
+*{margin:0;padding: 0;box-sizing: border-box;}
+html{background-color: #f6f6f6;scroll-behavior: smooth;font-size: 62.5;font-family: 'Times New Roman', Times, serif;}
+header{text-align: center;}
+h1,h4{margin-top: 4.5px;}h1{font-size:1.2rem;}
 
 /*section top letras */
+.p1_top,.p1_left,.p2_left,.p3_left,
+.p1_right,.p2_right,.p3_right,
+.p1_bottom{color:#000080;}
 
 .main_container_section_top{
-    margin-top:40px;
-    
+    margin-top:40px; 
     margin-bottom: 4px;
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -34,16 +18,12 @@ h1,h4{
     font-size: .85rem;
     display:flex;
     justify-content: center;
-
-
 }
 
 .p1_top_sub{
-   
     display:flex;
     justify-content: center;
     font-size:.65rem;
-
 }
 
 
@@ -55,8 +35,6 @@ h1,h4{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: 145px;
-
-
 }
 /* section left grid main */
 
@@ -78,8 +56,6 @@ h1,h4{
     display:flex;
     justify-content: center;
     margin-left: -5px;
-
-    
 }
 .p2_left_sub{
     font-size: .65rem;
@@ -92,16 +68,12 @@ h1,h4{
     font-size: .85rem;
     display:flex;
     justify-content: center;
-    
 }
 .p3_left_sub{
     font-size: .65rem;
     display: flex;
     justify-content: center;
-   
 }
-
-
 
 /*section central , img*/ 
 .main_container_section_center{
@@ -109,10 +81,8 @@ h1,h4{
   justify-content: center;
 }
 .imagen_center_wikipedia{
-  
     width: 135px;
     height:125px;
-   
 }
 
 /*section rigth grid main */
@@ -134,8 +104,6 @@ h1,h4{
     display:flex;
     justify-content: center;
     margin-right: -5px;
-
-    
 }
 .p2_right_sub{
     font-size: .65rem;
@@ -148,16 +116,12 @@ h1,h4{
     font-size: .85rem;
     display:flex;
     justify-content: center;
-    
 }
 .p3_right_sub{
     font-size: .65rem;
     display: flex;
     justify-content: center;
-   
 }
-
-
 
 
 /* section bottom letras */
@@ -171,19 +135,114 @@ h1,h4{
     font-size: .85rem;
     display:flex;
     justify-content: center;
-
-
 }
 
 .p1_bottom_sub{
-   
     display:flex;
     justify-content: center;
     font-size:.65rem;
-
 }
 
 
+/*parte input*/
+
+.contenedor_input{
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+}
+
+.lupa{
+    width:30px;
+    height:30px;
+}
+
+
+.input_busqueda{
+    width: 240px;
+    height:30px;
+    outline:none;
+}
+
+.input_busqueda::placeholder{
+    color:#000080;
+    text-align: right;
+    
+}
+
+/*boton lenguaje*/
+
+.container_main_boton{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+hr{
+    margin-top: 45px;
+    width:65px;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contenedor_boton{
+    display: flex;
+    justify-content: center;
+    opacity: 0.8;
+    width:190px;
+    margin: 35px auto 10px;
+    border: 1px solid rgb(133, 133, 133) ;
+    background-color: #C0C0C0;
+}
+/*rgb(210, 208, 208);*/
+.kanji{
+    margin-top:2px;
+    width:14px;
+    height:14px;
+    margin-left: 20px;
+    filter:brightness(.75);
+}
+
+.buton::placeholder{
+    text-align:center;
+    color:#000080;
+    font-size:.7rem;
+}
+.buton{
+    border:transparent;
+    outline: none;
+    width:150px;
+ background-color: #C0C0C0;
+ 
+}
+
+/*hr intermedio*/
+
+.intermedaria_final_main_footer{
+    width:315px;
+}
+
+
+
+
+/*-----------------
+FOOTER*/
+
+.container_footer{
+    background-color: #C0C0C0 ;
+    opacity: 0.9;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+/*mediaqueries 425*/
 @media(min-width:425px){
     .imagen_center_wikipedia{
   
