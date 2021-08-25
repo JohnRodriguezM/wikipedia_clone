@@ -1,0 +1,32 @@
+/*750px o +*/
+body{max-width: 950px;margin-left: auto;margin-right: auto;}
+
+h1,h4{margin-top: 12px; font-size: 1.5rem;}h1{font-size:1.8rem;}
+
+.main_container_section_top{max-width:770px;margin-left: auto;margin-right: auto;}
+
+.main_container_section_bottom{max-width: 770px;margin-left: auto; margin-right: auto;}
+
+.main_container{max-width: 750px; margin-left: auto;margin-right: auto;}
+
+.p1_top,.p1_left,.p2_left,
+.p3_left,.p1_right,.p2_right,
+.p3_right,.p1_bottom
+{font-size: 1.5rem;}
+   
+.p1_top_sub,.p1_left_sub,.p2_left_sub,
+.p3_left_sub,.p1_right_sub,.p2_right_sub,
+.p3_right_sub,.p1_bottom_sub
+{font-size:1.3rem;}
+
+.imagen_center_wikipedia{width: 200px;height:190px;}
+
+.p1_bottom{margin-top:70px;}
+
+.container_footer{grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; }
+
+.img_footer_1{width:66px;height:72px;}
+
+.container_footer h2{font-size: 1.3rem;margin:8px; padding:0px; }
+
+.contaniner_sub_footer p{font-size:.95rem;}
